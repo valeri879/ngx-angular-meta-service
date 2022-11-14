@@ -1,6 +1,6 @@
 {
   "name": "ngx-angular-meta-service",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "repository": {
     "type": "git",
     "url": "https://github.com/valeri879/ngx-angular-meta-service"
@@ -11,7 +11,12 @@
     "email": "valeri.kharitonashvili1@gmail.com",
     "url": "https://twitter.com/va1_do"
   },
-  "keywords": ["meta service", "angular meta service", "ngx meta", "angular social meta tags"],
+  "keywords": [
+    "meta service",
+    "angular meta service",
+    "ngx meta",
+    "angular social meta tags"
+  ],
   "bugs": {
     "url": "https://github.com/valeri879/ngx-angular-meta-service/issues"
   },
