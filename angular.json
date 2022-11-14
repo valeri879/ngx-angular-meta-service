@@ -3,5 +3,36 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "ngx-angular-meta-service": {
+      "projectType": "library",
+      "root": "projects/ngx-angular-meta-service",
+      "sourceRoot": "projects/ngx-angular-meta-service/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-angular-meta-service/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-angular-meta-service/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-angular-meta-service/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-angular-meta-service/src/test.ts",
+            "tsConfig": "projects/ngx-angular-meta-service/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-angular-meta-service/karma.conf.js"
+          }
+        }
+      }
+    }
   }
 }
