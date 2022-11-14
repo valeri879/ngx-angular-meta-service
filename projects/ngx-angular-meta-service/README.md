@@ -91,4 +91,5 @@ which includes six paragraphs, two of which are required and four of which are o
 | twitterCreatorName | `false` | @username of content creator |
 | author | `false` | page publisher name |
 
-
+## SSR
+you need to use angular server side rendering for this meta services
