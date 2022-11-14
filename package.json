@@ -1,6 +1,26 @@
 {
   "name": "ngx-angular-meta-service",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valeri879/ngx-angular-meta-service"
+  },
+  "description": "Simple angular meta service for SSR applications",
+  "author": {
+    "name": "Val Do",
+    "email": "valeri.kharitonashvili1@gmail.com",
+    "url": "https://twitter.com/va1_do"
+  },
+  "keywords": [
+    "meta service",
+    "angular meta service",
+    "ngx meta",
+    "angular social meta tags"
+  ],
+  "bugs": {
+    "url": "https://github.com/valeri879/ngx-angular-meta-service/issues"
+  },
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "build": "ng-packagr -p ng-package.json",
