@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/valeri879/ngx-angular-meta-service"
+    "url": "git+https://github.com/valeri879/ngx-angular-meta-service.git"
   },
   "description": "Simple angular meta service for SSR applications",
   "author": {
