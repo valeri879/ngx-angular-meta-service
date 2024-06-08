@@ -98,6 +98,7 @@ which includes six paragraphs, two of which are required and four of which are o
 | 0.1.1           | 15.0.0          |
 | 0.1.3           | 16.2.12         |
 | 0.1.5           | 17.3.11         |
+| 0.1.6           | 18.0.2          |
 
 ## SSR
 you need to use angular server side rendering for this meta services
