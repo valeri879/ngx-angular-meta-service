@@ -84,11 +84,11 @@ As you see in **app.component.ts** There is only one method known as `.update()`
 which includes six paragraphs, two of which are required and four of which are optional.
 |Parameter name | Is optional        | Parameter description |
 |---------------|--------------------|-----------------------|
-| title         | `true` | page title |
-| description   | `true` | page description, you can also send strings with html tags, `regex` automatically removes tags |
+| title         | `false` | page title |
+| description   | `false` | page description, you can also send strings with html tags, `regex` automatically removes tags |
 | img | `false` | your image path |
-| twitterUserName | `false` | @username of website. Either twitter:site or twitter:site:id is required. |
-| twitterCreatorName | `false` | @username of content creator |
+| twitterUserName | `true` | @username of website. Either twitter:site or twitter:site:id is required. |
+| twitterCreatorName | `true` | @username of content creator |
 | author | `false` | page publisher name |
 
 ## Versions
